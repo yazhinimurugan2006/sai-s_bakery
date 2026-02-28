@@ -1,0 +1,220 @@
+=<!DOCTYPE html>
+<html>
+<head>
+    <title>My Professional Website</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        /* HEADER */
+        header {
+            background: linear-gradient(90deg, #f2088d,rgb(149, 80, 125),rgb(73, 132, 161));
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        /* ROUND LOGO */
+        .logo img {
+            width: 500px;
+            height: 500px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        header h1 {
+            margin-top: 20px;
+            font-size: 32px;
+        }
+
+        /* NAVIGATION */
+        nav {
+            background: #333;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 20px;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        /* HERO SECTION */
+        .hero {
+            padding: 80px 20px;
+            text-align: center;
+            background: #f4f6f9;
+        }
+
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            padding: 12px 30px;
+            background: #4e73df;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #1cc88a;
+        }
+
+        /* ABOUT */
+        .about {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        /* SERVICES */
+        .services {
+            padding: 60px 20px;
+            background: #f4f6f9;
+            text-align: center;
+        }
+
+        .service-box {
+            display: inline-block;
+            width: 250px;
+            margin: 20px;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+
+        /* CONTACT */
+        .contact {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .contact input, .contact textarea {
+            width: 250px;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Responsive */
+        @media(max-width:768px){
+            .service-box{
+                width: 80%;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- HEADER WITH ROUND LOGO -->
+    <header>
+        <div class="logo">
+            <!-- Replace logo.png with your file name -->
+            <img src="Sai’s Bakery.jpg" alt="Website Logo">
+        </div>
+        <h1>My Professional Website</h1>
+    </header>
+
+    
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+    <h2>Building Digital Experiences That Drive Growth</h2>
+    <p>
+        We help businesses transform their ideas into powerful digital solutions.
+        Our team delivers high-performance websites, strategic branding, and 
+        innovative technologies that elevate your online presence.
+    </p>
+    <button class="btn">Get Started</button>
+</section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+        <h2>About Us</h2>
+        <p>We are a creative team dedicated to building modern and attractive websites.</p>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section class="services" id="services">
+        <h2>Our Services</h2>
+
+        <div class="service-box">
+            <h3>Web Design</h3>
+            <p>Modern and responsive website design.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>Development</h3>
+            <p>Professional coding and development services.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>Support</h3>
+            <p>24/7 customer support and maintenance.</p>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <input type="text" placeholder="Your Name"><br>
+        <input type="email" placeholder="Your Email"><br>
+        <textarea rows="4" placeholder="Your Message"></textarea><br>
+        <button class="btn">Send Message</button>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        © 2026 My Professional Website | All Rights Reserved
+    </footer>
+
+</body>
+</htmm>
